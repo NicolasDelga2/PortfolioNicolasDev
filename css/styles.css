@@ -243,7 +243,7 @@ header h1 {
     color: #000;
     font-family: sans-serif;
     font-size: 20px;
-    padding: 5px 20px;
+    padding: 10px;
     margin: 10px;
     text-decoration: none;
     transition: all 0.5s ease-in-out;
@@ -271,14 +271,12 @@ header h1 {
 }
 .portafolio-boton {
     width: 180px;
-    height: 40px;
     margin-right: 10px;
-    margin-bottom: 5px;
     border-radius: 10px;
     border: none;
     font-size: 18px;
-    padding: 7px;
-    margin-bottom: 20px;
+    padding: 10px;
+    margin-bottom: 30px;
 }
 
 .portafolio-boton:hover {
@@ -394,9 +392,7 @@ header h1 {
 .portfolio-details b{
     color: #6a3093;
     font-size: 1rem;
-    font-family: var(--main-font)
-    ;
-
+    font-family: var(--main-font) ;
 }
 
 .portfolio-modal > img {
@@ -426,7 +422,7 @@ header h1 {
     background-color: #f2f2f2;
     height: auto;
     border-radius: 10px;
-    transition: all .5s ease-in-out;
+    transition: all 0.5s ease-in-out;
 }
 
 .item-servicio i {
@@ -437,6 +433,8 @@ header h1 {
     padding: 18px;
     border: 1px solid #000;
     border-radius: 20px 20px 0px 20px;
+    background: #b72db7;
+    transition: all 0.5s ease-in-out;
 }
 
 .item-servicio h4 {
@@ -456,6 +454,9 @@ header h1 {
 
 .item-servicio:hover {
     background: #b72db7;
+}
+.item-servicio:hover > i{
+    background: #f2f2f3;
 }
 
 
@@ -482,7 +483,7 @@ header h1 {
 }
 
 .filter {
-    /*display: none; */
+    display: none;
     visibility: hidden;
     opacity: 0;
     order: 1;
