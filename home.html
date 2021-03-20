@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev Nicolas Delgado</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.1.3/hamburgers.min.css"
+        integrity="sha512-+mlclc5Q/eHs49oIOCxnnENudJWuNqX5AogCiqRBgKnpoplPzETg2fkgBFVC6WYUVxYYljuxPNG8RE7yBy1K+g=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="img/logo web 2.png">
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2f1a7c4ee2.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <h1>NICOLAS DELGADO</h1>
+    </header>
+    <button class="panel-btn hamburger hamburger--vortex" type="button">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+    <aside class="panel">
+        <nav class="menu">
+            <a href="#seccion1">Inicio</a>
+            <a href="#seccion2">Acerca de mi</a>
+            <a href="#seccion4">Portafolio</a>
+            <a href="#seccion5">Servicios</a>
+            <a href="#seccion6">Contacto</a>
+
+        </nav>
+    </aside>
+    <main>
+        <section id="seccion1" class="section">
+            <div class="landing-parte_izquierda">
+
+                <div class="landing-contenedor-titulos">
+                    <h2>Hola! Soy </h2>
+                    <h2>Nicolás Delgado</h2>
+                    <h2>Desarrollador Web Full Stack</h2>
+                </div>
+                <div class="landing-logo">
+                    <h3>ND</h3>
+                    <h4>Desarrollador</h4>
+                </div>
+            </div>
+            <div class="landing-parte_derecha">
+                <h2>Creamos lo que necesitas.</h2>
+                <!-- Creemos en vos por eso,  creamos lo que necesitas -->
+            </div>
+        </section>
+
+        <section id="seccion2" class="section">
+            <h3>Acerca de Mi</h3>
+            <div class="contenedor-resumen">
+                <img src="img/contacto2.jpg" alt="">
+                <h4>Resumen</h3>
+                <p>Hola! Mi nombre es Nicolas Delgado, un estudiante autodidacta de informatica. Me destaco por aprender
+                    diferentes tecnologias, mi objetivo es ser un desarrollador Web Full Stack Java.
+                </p>
+                <p>Te invito a visitar mi perfil de Linkenln y tambien mi perfil de GitHub. Tambien podes escribirme en
+                    el formulario de contacto.
+                </p>
+                <a href="assets/Logo Web.png" target="_blank">Ver Curriculum Vitae</a>
+            </div>
+        </section>
+  
+        <section id="seccion4" class="portfolio">
+            <h3>Portafolio</h3>
+            <div class="contenedor-portafolio-botones">
+                <button class="portafolio-boton">Diseño Web</button>
+                <button class="portafolio-boton">Aplicacion Web</button>
+                <button class="portafolio-boton">Todos</button>
+            </div>
+            <a href="#trabajo-1" class="portfolio-card" data-project="Aplicacion Web">
+                <img src="img/contacto.jpg" alt="Alkemy lab">
+                <aside class="portfolio-card-info">
+                    <div>
+                        <h3>Proyecto 1</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero,
+                             nesciunt praesentium minus quas vero vel, suscipit ipsam fuga 
+                             quae in vitae! Sunt molestias, assumenda officia eligendi ratione a
+                             b corporis modi?</p>
+                    </div>
+                </aside>
+            </a>
+            <a href="#trabajo-2" class="portfolio-card" data-project="Aplicacion Web">
+                <img src="img/contacto.jpg" alt="Alkemy lab">
+                <aside class="portfolio-card-info">
+                    <div >
+                        <h3>Proyecto 2</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero,
+                             nesciunt praesentium minus quas vero vel, suscipit ipsam fuga 
+                             quae in vitae! Sunt molestias, assumenda officia eligendi ratione a
+                             b corporis modi?</p>
+                    </div>
+                </aside>
+            </a>
+            <a href="#trabajo-3" class="portfolio-card" data-project="Diseño Web">
+                <img src="img/contacto.jpg" alt="Alkemy lab" >
+                <aside class="portfolio-card-info">
+                    <div>
+                        <h3>Proyecto 3</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero,
+                             nesciunt praesentium minus quas vero vel, suscipit ipsam fuga 
+                             quae in vitae! Sunt molestias, assumenda officia eligendi ratione a
+                             b corporis modi?</p>
+                    </div>
+                </aside>
+            </a>
+            <a href="#trabajo-4" class="portfolio-card" data-project="Diseño Web">
+                <img src="img/contacto.jpg" alt="Alkemy lab">
+                <aside class="portfolio-card-info">
+                    <div>
+                        <h3>Proyecto 4</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero,
+                             nesciunt praesentium minus quas vero vel, suscipit ipsam fuga 
+                             quae in vitae! Sunt molestias, assumenda officia eligendi ratione a
+                             b corporis modi?</p>
+                    </div>
+                </aside>
+            </a>
+        </section>
+
+        <article class="modal" id="trabajo-1">
+            <div class="modal-content">
+                <a href="#close" class="modal-close"><i class="fas fa-window-close"></i></a>
+                <article class="portfolio-modal">
+                    <img src="img/contacto.jpg" alt="trabajo 1">
+                    <div class="portfolio-info">
+                        <h3>Nombre del Proyecto 1</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, sunt corrupti. D
+                            olores, aut veniam! Explicabo quibusdam, sit maiores unde nequ
+                            e vitae voluptas eveniet, ea dolorem aspernatur consequuntur temporibus quo aut?</p>
+                            <aside class="portfolio-details">
+                                <small><b>Cliente:</b></small>
+                                <small>Nombre del Cliente</small>
+                
+                                <small><b>Fecha:</b></small>
+                                <small>19/03/2021</small>
+                
+                                <small><b>Tipo:</b></small>
+                                <small>Aplicacion Web</small>
+                
+                                <small><b>Enlace:</b></small>
+                                <a href="#" target="_blank" rel="noopener"><small>Enlace</small></a>
+                            </aside>
+                        </div>
+                </article>
+            </div>
+        </article>
+
+        <article class="modal" id="trabajo-2">
+            <div class="modal-content">
+                <a href="#close" class="modal-close"><i class="fas fa-window-close"></i></a>
+                <article class="portfolio-modal">
+                    <img src="img/contacto.jpg" alt="trabajo 2">
+                    <div class="portfolio-info">
+                        <h3>Nombre del Proyecto 2</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, sunt corrupti. D
+                            olores, aut veniam! Explicabo quibusdam, sit maiores unde nequ
+                            e vitae voluptas eveniet, ea dolorem aspernatur consequuntur temporibus quo aut?</p>
+                    
+                    <aside class="portfolio-details">
+                        <small><b>Cliente:</b></small>
+                        <small>Nombre del Cliente</small>
+        
+                        <small><b>Fecha:</b></small>
+                        <small>19/03/2021</small>
+        
+                        <small><b>Tipo:</b></small>
+                        <small>Aplicacion Web</small>
+        
+                        <small><b>Enlace:</b></small>
+                        <a href="#" target="_blank" rel="noopener"><small>Enlace</small></a>
+                    </aside>
+                </div>
+                </article>
+            </div>
+        </article>
+
+        <article class="modal" id="trabajo-3">
+            <div class="modal-content">
+                <a href="#close" class="modal-close"><i class="fas fa-window-close"></i></a>
+                <article class="portfolio-modal">
+                    <img src="img/contacto.jpg" alt="trabajo 3">
+                    <div class="portfolio-info">
+                        <h3>Nombre del Proyecto 3</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, sunt corrupti. D
+                            olores, aut veniam! Explicabo quibusdam, sit maiores unde nequ
+                            e vitae voluptas eveniet, ea dolorem aspernatur consequuntur temporibus quo aut?</p>
+                    
+                    <aside class="portfolio-details">
+                        <small><b>Cliente:</b></small>
+                        <small>Nombre del Cliente</small>
+        
+                        <small><b>Fecha:</b></small>
+                        <small>19/03/2021</small>
+        
+                        <small><b>Tipo:</b></small>
+                        <small>Aplicacion Web</small>
+        
+                        <small><b>Enlace:</b></small>
+                        <a href="#" target="_blank" rel="noopener"><small>Enlace</small></a>
+                    </aside>
+                </div>
+                </article>
+            </div>
+        </article>
+
+        <article class="modal" id="trabajo-4">
+            <div class="modal-content">
+                <a href="#close" class="modal-close"><i class="fas fa-window-close"></i></a>
+                <article class="portfolio-modal">
+                    <img src="img/contacto.jpg" alt="trabajo 4">
+                    <div class="portfolio-info">
+                        <h3>Nombre del Proyecto 4</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, sunt corrupti. D
+                            olores, aut veniam! Explicabo quibusdam, sit maiores unde nequ
+                            e vitae voluptas eveniet, ea dolorem aspernatur consequuntur temporibus quo aut?</p>
+                    
+                    <aside class="portfolio-details">
+                        <small><b>Cliente:</b></small>
+                        <small>Nombre del Cliente</small>
+        
+                        <small><b>Fecha:</b></small>
+                        <small>19/03/2021</small>
+        
+                        <small><b>Tipo:</b></small>
+                        <small>Aplicacion Web</small>
+        
+                        <small><b>Enlace:</b></small>
+                        <a href="#" target="_blank" rel="noopener"><small>Enlace</small></a>
+                    </aside>
+                </div>
+                </article>
+            </div>
+        </article>
+
+        
+
+
+        <section id="seccion5" class="section">
+            <h3>Servicios</h3>
+            <div class="contenedor-servicios_item">
+                <div class="item-servicio">
+                    <i class="fas fa-mobile"></i>
+                    <h4>Diseño Web Responsive</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, pariatur.</p>
+                </div>
+                <div class="item-servicio">
+                    <i class="fas fa-pencil-alt"></i>
+                    <h4>Diseño Web</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, pariatur.</p>
+                </div>
+                <div class="item-servicio">
+                    <i class="fas fa-file-code"></i>
+                    <h4>Desarrollo Web</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, pariatur.</p>
+                </div>
+
+                <div class="item-servicio">
+                    <i class="fas fa-file-code"></i>
+                    <h4>Desarrollo de Aplicaciones Web</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, pariatur.</p>
+                </div>
+
+            </div>
+        </section>
+        <section id="seccion6">
+            <div class="landing-contenedor_social">
+                <a href="mailto:delgadonicolas251@gmail.com"><i class="far fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/juan-nicolas-delgado251" target="_blank"><img src="img/linkedin.png" alt="Linkeln Nicolas Delgado" class="logo-linkedin"></a>
+                <a href="https://github.com/NicolasDelga2" target="_blank"><img src="img/github.png" alt="GitHub Nicolas Delgado" class="logo-github"></a>
+            </div>
+            <div class="contenedor-copyright">
+                <hr class="linea">
+                </hr>
+                <div class="texto-footer">
+                    <p> © Copyright Nicolas Delgado Design </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="js/index_dom.js" type="module"></script>
+</body>
+
+</html>
